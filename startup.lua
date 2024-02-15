@@ -359,7 +359,7 @@ while true do
             elseif event == "monitor_touch" then
                 local x, y = eventData[3], eventData[4]
                 --Clicked on a song
-                if y > 1 and y < (ScreenSizeY - 1) then
+                if y > 1 and y < ScreenSizeY then
                     if not (Songs[(y - 1) + ((currentPage - 1) * (ScreenSizeY - 2))] == nil) then
                         currentSong = ((y - 1) + ((currentPage - 1) * (ScreenSizeY - 2)))
                     end
