@@ -1,4 +1,4 @@
-# computercraft-mc-player
+# computercraft-music-player
 A computercraft music playing program in lua for playing music in-game!
 
 ![Screenshot](https://github.com/marc0sj0estar/computercraft-mc-player/assets/108777250/b5b9bdcb-83b9-4244-afa4-4a7df73eedcc)
